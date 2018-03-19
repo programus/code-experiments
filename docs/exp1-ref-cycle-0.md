@@ -62,10 +62,12 @@
 
 于是，有人给了我这样的程序：
 
+```java
     ClassA a = new ClassA("a");
     ClassB b = new ClassB("b");
     a.setRef(b);
     b.setRef(a);
+```
 
 这样写对不对呢？**对**！
 
@@ -75,16 +77,18 @@
 
 所以，我们可以改成下面这样：
 
+```java
     SomeClass a = new SomeClass("a");
     SomeClass b = new SomeClass("b");
     a.setRef(b);
     b.setRef(a);
+```
     
 那么，这段程序写在哪？答曰：`闷函数`，哦，对不起，忘了切输入法了，应该是`main()`函数。
 
 完整文件是这样的：
 
-```
+```java
 public class Main {
   public static void main(String[] args) throws InterruptedException {
     SomeClass a = new SomeClass("a");
