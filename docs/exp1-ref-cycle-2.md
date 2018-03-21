@@ -180,6 +180,7 @@ a is dying...!
 
 Java 9里`finalize()`不推荐使用了呀。就是`Deprecated`了。你瞧[这里](https://docs.oracle.com/javase/9/docs/api/java/lang/Object.html#finalize--)！
 
+## 新的挑战
 作为一个有代码洁癖的人，怎么可以让自己的实验代码里存在这种不知道哪天就被干掉的函数呢？
 
 我必须寻找一个新的方法来完成实验！
