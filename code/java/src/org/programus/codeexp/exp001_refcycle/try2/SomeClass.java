@@ -12,8 +12,16 @@ public class SomeClass {
     this.ref = ref;
   }
 
+  public SomeClass getRef() {
+    return ref;
+  }
+
+  public String getName() {
+    return name;
+  }
+
   @Override
   protected void finalize() {
-    System.out.println(String.format("%s is collected by gc.", this.name));
+    System.out.println(String.format("%s is dying...!", this.name));
   }
 }

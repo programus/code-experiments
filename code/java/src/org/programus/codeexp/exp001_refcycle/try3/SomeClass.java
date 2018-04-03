@@ -12,6 +12,14 @@ public class SomeClass {
     this.ref = ref;
   }
 
+  public SomeClass getRef() {
+    return ref;
+  }
+
+  public String getName() {
+    return name;
+  }
+
   @Override
   public String toString() {
     return String.format("SomeClass: %s", this.name);
