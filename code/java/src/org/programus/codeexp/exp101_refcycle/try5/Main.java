@@ -1,4 +1,4 @@
-package org.programus.codeexp.exp001_refcycle.try5;
+package org.programus.codeexp.exp101_refcycle.try5;
 
 import java.lang.ref.WeakReference;
 import java.util.Arrays;

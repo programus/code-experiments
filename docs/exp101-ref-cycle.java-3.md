@@ -1,4 +1,4 @@
-# 实验一 循环引用.java[3]
+# 实验101 循环引用.java[3]
 ## 前情提要
 上一篇中，我们已经在Java中完成了关于循环引用的实验。
 
@@ -12,10 +12,10 @@
 
 垃圾回收运行起来的时候，凡是顺着变量的强引用能找到的对象，它都会放过一马。
 
-![强引用](img/exp1/strong-reference.png "强引用")
+![强引用](img/exp101/strong-reference.png "强引用")
 
 反之，所有顺着变量的强引用不能找到的对象，都会被视作垃圾，杀之。
-![弱引用](img/exp1/weak-reference.png "弱引用")
+![弱引用](img/exp101/weak-reference.png "弱引用")
 
 因为弱引用还是与对象有着弱弱的联系，所以，可以通过弱引用访问对象，也可以很容易地检测到对象是否已被垃圾回收处理掉。
 
@@ -115,7 +115,7 @@ public class SomeClass {
 
 还是先画个（有清浅池塘和小乌龟的）图吧。
 
-![单对象循环引用](img/exp1/single-object-ref-cycle.png)
+![单对象循环引用](img/exp101/single-object-ref-cycle.png)
 
 有了图，代码就好构造了。
 
@@ -196,7 +196,7 @@ null
 
 到了这里，这一实验真的是可以告一段落了……
 
-![python](img/exp1/python.png)
+![python](img/exp101/python.png)
 
 等等！这是啥？！**救命啊！！！！**
 

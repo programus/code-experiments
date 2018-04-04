@@ -1,7 +1,7 @@
-# 实验一 循环引用.java[2]
+# 实验101 循环引用.java[2]
 ## 前情提要
 上一篇中，我们按照设计好的实验步骤完成了实验，但得出的结论被伪阿拉伯人说是错的。
-![生死存亡](img/exp1/arab-ak47.png "生死存亡")
+![生死存亡](img/exp101/arab-ak47.png "生死存亡")
 
 值此生死存亡之际，应该何去何从？
 
@@ -76,7 +76,7 @@ public class Main {
 
 ```
 ```
-![WTF!](img/exp1/surprised.png "WTF!")
+![WTF!](img/exp101/surprised.png "WTF!")
 
 **What?! WTF!!**
 
@@ -91,7 +91,7 @@ public class Main {
 > 伟大的列宁教导我们：不会休息就不会工作！
 
 ## 插播漫画
-![世界末日](img/exp1/doomsday.png "世界末日")
+![世界末日](img/exp101/doomsday.png "世界末日")
 
 
 ## 真相只有一个
@@ -173,7 +173,7 @@ b is dying...!
 a is dying...!
 ```
 
-![情侣死了](img/exp1/both-die.png "情侣死了")
+![情侣死了](img/exp101/both-die.png "情侣死了")
 
 伪阿拉伯人看到这个结果，突然大哭起来：那对情侣，海誓山盟却不能天长地久！难道说，世间事大抵如此？
 

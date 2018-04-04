@@ -1,4 +1,4 @@
-package org.programus.codeexp.exp001_refcycle.try2;
+package org.programus.codeexp.exp101_refcycle.try3;
 
 public class SomeClass {
   private String name;
@@ -21,7 +21,7 @@ public class SomeClass {
   }
 
   @Override
-  protected void finalize() {
-    System.out.println(String.format("%s is dying...!", this.name));
+  public String toString() {
+    return String.format("SomeClass: %s", this.name);
   }
 }

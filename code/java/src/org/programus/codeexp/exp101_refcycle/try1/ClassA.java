@@ -1,14 +1,14 @@
-package org.programus.codeexp.exp001_refcycle.try1;
+package org.programus.codeexp.exp101_refcycle.try1;
 
-public class ClassB {
+public class ClassA {
   private String name;
-  private ClassA ref;
+  private ClassB ref;
 
-  public ClassB(String name) {
+  public ClassA(String name) {
     this.name = name;
   }
 
-  public void setRef(ClassA ref) {
+  public void setRef(ClassB ref) {
     this.ref = ref;
   }
 

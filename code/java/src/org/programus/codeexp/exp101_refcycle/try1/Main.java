@@ -1,4 +1,4 @@
-package org.programus.codeexp.exp001_refcycle.try1;
+package org.programus.codeexp.exp101_refcycle.try1;
 
 public class Main {
   public static void main(String[] args) throws InterruptedException {

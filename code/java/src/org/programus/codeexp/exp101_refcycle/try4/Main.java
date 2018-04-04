@@ -1,4 +1,4 @@
-package org.programus.codeexp.exp001_refcycle.try4;
+package org.programus.codeexp.exp101_refcycle.try4;
 
 import java.lang.ref.WeakReference;
 
